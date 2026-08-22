@@ -8,12 +8,12 @@ from punzi_scan import load_cache
 # Multi-core: the skim is a pure read+filter+write, parallelises perfectly
 ROOT.EnableImplicitMT()
 
-friend_dir = Path("/eos/lhcb/user/f/fabudine/vrd-lb2pktaumu/run3/friends")
+friend_dir = Path(" ")
 
 # Local output dir for the skims - put this somewhere on your work area,
 # NOT on EOS, so reruns read locally.
 skim_dir = Path(
-    "/afs/cern.ch/user/a/adalmia/workingDirectory/vrd-lb2pktaumu/run3/skims")
+    " ")
 skim_dir.mkdir(exist_ok=True)
 
 chain_prefix = "DTF3"
