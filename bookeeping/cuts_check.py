@@ -1,7 +1,7 @@
 import ROOT
 
-path_run2 = "/afs/cern.ch/work/f/fabudine/public/vrd-lb2pktaumu/tuples/mcLb_pKtaumu_3pi_2018_MagUp.root"
-path_run3 = "/eos/lhcb/grid/prod/lhcb/anaprod/lhcb/MC/2024/TUPLE.ROOT/00384527/0000/00384527_00000001_1.tuple.root"
+path_run2 = " "
+path_run3 = " "
 
 chain2 = ROOT.TChain("LbTuple1/DecayTree")
 chain2.Add(path_run2)
