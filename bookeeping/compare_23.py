@@ -12,10 +12,10 @@ from lhcbPlotStyle import setLHCbPlotStyle
 
 setLHCbPlotStyle()
 
-friend_dir = Path("/eos/lhcb/user/f/fabudine/vrd-lb2pktaumu/run3/friends")
+friend_dir = Path("  ")
 
 run2_inputDir = Path(
-    "/afs/cern.ch/work/f/fabudine/public/vrd-lb2pktaumu/tuples")
+    " ")
 
 HLT1_cut_mu = "(Lb_Hlt1TrackMVADecision_TOS || Lb_Hlt1TwoTrackMVADecision_TOS || Lb_Hlt1TrackMuonMVADecision_TOS)"
 
