@@ -4,8 +4,8 @@ SIGNAL_SIM_FILE = "scored_mc_combined.root"
 SIGNAL_DAT_FILE = "scored_data_os.root"
 SIGNAL_TREE = "tree"
 
-NORM_DIR = "/afs/cern.ch/work/a/adalmia/public/vrd-lb2pktaumu/run3/skims"
-SIGNAL_DIR = "/afs/cern.ch/work/a/adalmia/public/vrd-lb2pktaumu/run3/bdt_work/cache"
+NORM_DIR = " "
+SIGNAL_DIR = " "
 
 
 class FitSamples(object):
