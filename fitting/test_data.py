@@ -116,7 +116,7 @@ args = parser.parse_args()
 ROOT.RooRandom.randomGenerator().SetSeed(args.seed)
 
 CACHE_FILE = Path(
-    "/afs/cern.ch/work/a/adalmia/public/vrd-lb2pktaumu/run3/bdt_work/cache/sideband_fit_os.npz"
+    " "
 )
 
 
