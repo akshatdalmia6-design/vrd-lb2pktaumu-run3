@@ -10,7 +10,7 @@ setLHCbPlotStyle()
 ROOT.EnableImplicitMT()
 
 skim_dir = Path(
-    "/afs/cern.ch/user/a/adalmia/workingDirectory/vrd-lb2pktaumu/run3/skims")
+    " ")
 
 LB_PDG_M = 5619.5
 NSIGMA = 3.0
