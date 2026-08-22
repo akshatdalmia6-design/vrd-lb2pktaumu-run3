@@ -38,7 +38,7 @@ def get_all_input_files(samples):
 
 
 # Main processing loop
-saving_dir = Path("/eos/lhcb/user/f/fabudine/vrd-lb2pktaumu/run3/friends")
+saving_dir = Path("  ")
 tree_names = [
     "Hlt2RD_LbToPKTauMu_TauTo3Pi_OS_DTF3",
     "Hlt2RD_LbToPKTauMu_TauTo3Pi_SS_DTF3"
