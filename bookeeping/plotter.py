@@ -3,7 +3,7 @@ import sys
 sys.path.append("../utils")
 from lhcbPlotStyle import setLHCbPlotStyle
 setLHCbPlotStyle()
-input_dir = "/afs/cern.ch/work/f/fabudine/public/vrd-lb2pktaumu/tuples"
+input_dir = " "
 
 
 def make_plots(sig_path, bkg_path, vars_plot, n_bins=50):
